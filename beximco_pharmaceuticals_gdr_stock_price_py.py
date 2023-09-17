@@ -16,7 +16,7 @@ import streamlit as st
 
 import pandas as pd
 
-st.header("""#Showcasing Stock price for "Beximco Pharmaceuticals GDR" at the time of Pandemic""")
+st.header("Showcasing Stock price for "Beximco Pharmaceuticals GDR" at the time of Pandemic", divider='rainbow')
 
 tickerSymbol ='BXP'
 tickerData = yf.Ticker(tickerSymbol)
