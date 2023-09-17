@@ -36,5 +36,5 @@ st.line_chart(tickerDF.Volume)
 #!npm install localtunnel
 
 #streamlit run Beximco Pharmaceuticals GDR Stock Price.py &>/content/logs.txt
-streamlit==1.1.0
-plotly==5.1.0
+#streamlit==1.1.0
+#plotly==5.1.0
