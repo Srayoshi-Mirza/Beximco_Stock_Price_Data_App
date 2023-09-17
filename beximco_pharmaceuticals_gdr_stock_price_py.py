@@ -20,7 +20,7 @@ st.write(
 
 
          """
-         ##Showcasing Stock price for Beximco Pharmaceuticals GDR
+         #Showcasing Stock price for Beximco Pharmaceuticals GDR
 
          """
 )
