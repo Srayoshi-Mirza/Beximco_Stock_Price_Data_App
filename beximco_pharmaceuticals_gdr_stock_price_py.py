@@ -16,18 +16,11 @@ import streamlit as st
 
 import pandas as pd
 
-st.write(
-
-
-         """
-         #Showcasing Stock price for Beximco Pharmaceuticals GDR
-
-         """
-)
+st.header("""#Showcasing Stock price for "Beximco Pharmaceuticals GDR" at the time of Pandemic""")
 
 tickerSymbol ='BXP'
 tickerData = yf.Ticker(tickerSymbol)
-tickerDF = tickerData.history(period = '1d', start='2010-9-17', end ='2023-5-31')
+tickerDF = tickerData.history(period = '1d', start='2020-9-17', end ='2023-5-31')
 
 st.line_chart(tickerDF.Close)
 st.line_chart(tickerDF.Volume)
